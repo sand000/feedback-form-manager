@@ -110,7 +110,7 @@ function Form() {
 
         <h2>Feedback List</h2>
 
-        {filteredFeedback.length > 1 ? (
+        {filteredFeedback.length > 10 ? (
           <h3 style={{ color: "red" }}>Too many results, please refine your search</h3>
         ) : filteredFeedback.length > 0 ? (
           filteredFeedback.map((e, i) => (
